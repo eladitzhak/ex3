@@ -18,3 +18,18 @@ header,nav,aside,article,section,footer,main {
 
 
 }
+
+
+
+header {
+            border:1px black solid;
+}
+
+
+ /*position:static|absolute|fixed|relative*/
+
+
+
+/*fixed-where you put it will remain! logo on the left i will alwyes be theere*/
+
+relative-relative to the father if no father, to the page
