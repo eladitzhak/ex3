@@ -1,16 +1,124 @@
 *{margin:0;padding:0;}
-
-
+/*-----------------layout1--------------*/
 header,nav,aside,article,section,footer,main {
     display:block;
 }
 
+header{
+     /*header original settings*/
+    width:1000px;
+     height:183px;
+    /*---------------------*/
+}
+nav {
+
+    width:727px;
+    height:57px;
+    float:right;
+    margin-top: 66px; /*calculates from the logo so only 47PX down for the mragin */
+    background-color: #b94a48;
+    padding:0;
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+li {
+    float:left;
+    padding:8px;
+    display: block;
+    width:226px;
+    height:41px;
+
+}
+
+li a{ display: block;
+     padding:8px;
+    text-align: center;
+    /*width:226px;*/
+    /*height:41px;*/
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.selected {
+    background-color: darkblue;
+
+}
+
+
+
+#logo {
+    width:78px;
+    height:79px;
+    background-image:url(../images/logo.png) ;
+    display:block; /* splitting each tag to block by it self */
+    margin-left: 104px; /*external space*/
+}
+aside {
+    width:121px;
+    height: 696px;
+    float:left;
+    background-color: #f2dede;
+}
+
+
+.section1 {
+    /*orignal section settings*/
+    height:268px;
+    width:849px;
+    float:left;
+    margin-left:30px;
+    background-color: #ee5f5b;
+    position: relative;
+    /*---------------*/
+}
+article{
+    position: absolute;
+    background-color: gray;
+}
+
+#box1 {
+    top:92px;
+    left: 343px;
+    right: 383px;
+    width: 126px;
+    height: 94px;
+    opacity: 0.6;
+
+}
+
+main{position: relative;}
+
+
+main article{
+
+    color:sandybrown;
+    height: 176px;
+    width: 692px;
+    top:491px;
+    left:218px;
+    /*right: 1169px;*/
+    bottom: 847px;
+    display: block;
+
+}
 
 #wrapper {
+    /*----------------- orignal basic setting*/
     width: 1000px;/*rohav kol amud*/
-    margin: 0px auto; /*#mirkuz anahi shulaim */
+    margin: 0 auto; /*#mirkuz anahi shulaim object in the middle */
     height: 1000px;
-    background-color:#000000;
+    background-color:white;
+
+    /*------------*/
 }
 
 .clear {
@@ -20,16 +128,208 @@ header,nav,aside,article,section,footer,main {
 }
 
 
-
-header {
-            border:1px black solid;
+.footer1{
+    /*footer origanl setting*/
+    width:1000px;
+    height: 121px;
+    background-color: #d6d6d6;
+/*-------------------------*/
 }
 
 
- /*position:static|absolute|fixed|relative*/
 
 
 
-/*fixed-where you put it will remain! logo on the left i will alwyes be theere*/
+main{
+    height: 1000px;
+    width: 1000px;
+}
 
-relative-relative to the father if no father, to the page
+header {
+    height: 192px;
+    background-color: white;
+    width: 1000px;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#logo2 {
+    top:36px;
+    width:78px;
+    height:79px;
+    background-image:url(../images/logo.png) ;
+    display:block; /* splitting each tag to block by it self */
+    /*margin-left: 104px; !*external space*!*/
+    left: 725px;
+    right:796px;
+    margin:10px;
+    margin-left: 465px;
+}
+
+#wrapper2 {
+    /*----------------- orignal basic setting*/
+    width: 1000px;/*rohav kol amud*/
+    margin: 0 auto; /*#mirkuz anahi shulaim object in the middle */
+    height: 1000px;
+    background-color:white;
+
+    /*------------*/
+}
+
+.clear {
+    clear:both;
+
+
+}
+
+
+
+
+.body2 li{
+    height: 47px;
+    width: 184px;
+}
+
+.body2 nav{
+    height: 759px;
+    width: 241px;
+    float:left;
+    /*position: relative;*/
+    display: block;
+    /*padding: 0;*/
+    margin-top: 100px; /*calculates from the logo so only 47PX down for the mragin */
+    background-color: #333333;
+
+}
+
+
+
+.body2 li a {
+    text-decoration: none;
+    display: block;
+    padding:4px;
+    text-align: left;
+    color:white;
+    font-size: 20px;
+}
+
+.body2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.selected2{
+
+    background-color: darkblue;
+
+}
+
+.body2 li {
+    float:left;
+    padding:8px;
+    display: block;
+    width:226px;
+    height:41px;
+
+}
+
+
+
+#section2 {
+
+    width: 757px;
+    background-color: #ee5f5b;
+    height: 759px;
+    display: block;
+    right: 274px;
+    margin-top: -10px;
+    float: left;
+    overflow: auto;
+
+
+}
+
+.container{
+    height: 500px;
+    width: 758px;
+
+
+
+}
+.float{
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+
+}
+
+.float:nth-child(2){
+    height: 223px;
+    width:212px;
+    background-color: black;
+    opacity: 0.6;
+    left: 756px;
+    top: -10px;
+
+}
+
+
+
+.float:nth-child(3){
+    height: 560px;
+    width:212px;
+    background-color: black;
+    opacity: 0.6;
+    top:-248px;
+    left: 515px;
+
+}
+
+.float:nth-child(4){
+    height: 366px;
+    width:212px;
+    background-color: black;
+    opacity: 0.6;
+    left: 275px;
+    top:-824px ;
+
+}
+.float:nth-child(5){
+    height: 500px;
+    width:212px;
+    background-color: black;
+    opacity: 0.6;
+    left: 275px;
+    top:-824px ;
+
+
+}
+
+
+.float:nth-child(6){
+    height: 306px;
+    width:212px;
+    background-color: black;
+    opacity: 0.6;
+    left: 515px;
+    top:-1135px ;
+
+
+}
+
+
+
+.footer2{
+    width: 1000px;
+    display:block;
+position: fixed;
+height: 51px;
+background-color: chartreuse;
+    bottom:0;
+
+
+}
