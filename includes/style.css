@@ -538,8 +538,9 @@ background-color: chartreuse;
  */
 
 }
-@media (max-width: 999px){
-    #wrapper3{
+@media (max-width: 999px) {
+    #wrapper3 {
         width: 66%;
 
     }
+}
