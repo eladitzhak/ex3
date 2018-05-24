@@ -333,3 +333,213 @@ background-color: chartreuse;
 
 
 }
+
+
+/*--------------------Layout 3 settings----------------*/
+
+#wrapper3 {
+    /*----------------- orignal basic setting*/
+    /*width: 1000px;!*rohav kol amud*!*/
+    width: 66%;
+    margin: 0 auto; /*#mirkuz anahi shulaim object in the middle */
+    height: 1000px;
+    background-color:#9d261d;
+
+    /*------------*/
+}
+
+
+/*#logo3 {*/
+    /*background-image:url(../images/logo3.png) ;*/
+    /*width: 66px;*/
+    /*height: 66px;*/
+    /*left: 281px;*/
+    /*display:block;*/
+/*}*/
+#wrapper3 main {
+    width: 920px;
+}
+
+#wrapper3 header
+{
+    width: 1000px;
+    height: 500px;
+    background-color: #7c2f2f;
+    position: relative;
+    z-index: 1;
+
+
+
+}
+
+
+#wrapper3 div:nth-child(3) {
+
+    background-color: white;
+    width: 500px;
+    height: 438px;
+    position: relative;
+    background-image:url(../images/logo3.png) ;
+    background-repeat: no-repeat;
+    background-position-y:20px;
+    background-position-x: 25px;
+}
+
+#pSign {
+   position: absolute;
+    display: block;
+    z-index: 2;
+    margin-top: 200px;
+    margin-left: 203px;
+}
+
+
+#wrapper img{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    margin-top: -250px; /* Half the height */
+    margin-left: -250px; /* Half the width */
+}
+
+
+
+
+#wrapper3 nav{
+    margin-top: 438px;
+    margin-right:500px;
+    width: 500px;
+    height: 63px;
+
+}
+
+#wrapper3 .selected3 {
+    background-color: darkblue;
+    width:120px;
+    height:47px;
+}
+
+#wrapper3 ul {
+   /*width: 167.5px;*/
+    width: 560px;
+}
+
+#wrapper3 li{
+    float:left;
+    /*padding:8px;*/
+    width: 167.5px;
+}
+
+#wrapper3 .layout1 {
+    width: 167px;
+}
+/*#the other 2 selcted are 335/2=167.5*/
+
+#wrapper3 .layout2 {
+    width: 167px;
+}
+
+#wrapper3  main article {
+
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+    float: left;
+    z-index: 3;
+}
+
+#wrapper3  main article:hover {
+    background-color: white;
+    opacity: 1;
+}
+
+#wrapper3 article:nth-child(1) {
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    left: 500px;
+    top: -521px;
+
+}
+
+#wrapper3 article:nth-child(2) {
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+    left: 750px;
+    top: -521px;
+
+}
+
+#wrapper3 article:nth-child(3) {
+    background-color: black;
+    opacity: 0.1;
+    position: absolute;
+    left: 500px;
+    top: -271px;
+
+}
+
+#wrapper3 article:nth-child(4) {
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    left: 750px;
+    top: -271px;
+
+}
+
+
+
+/*#wrapper3 main {*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: left;*/
+    /*align-items: center;*/
+/*}*/
+
+
+#pSignClick{
+    width: 66%;
+    margin-top: -500px;
+    margin-left: 133px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    margin: 1px;
+    padding: 1px;
+    margin-top: -500px;
+    /*margin-left: 262px;*/
+    margin-left: 17%;
+}
+
+#pSignClick div{
+    width: 250px;
+    height: 250px;
+    background-color: #333333;
+}
+
+#pSignClick div:nth-child(1){
+    opacity: 0.2;
+}
+
+ @media (min-width: 1000px){
+    #wrapper3{
+        width: 66%;
+
+ }
+/*@media (max-width: 999px){*/
+
+/*wrapper decreasing*
+/
+ */
+
+}
+@media (max-width: 999px){
+    #wrapper3{
+        width: 66%;
+
+    }
